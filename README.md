@@ -37,7 +37,6 @@ Two types of prevalence values are calculated:
 
 The results are shown in the table below:
 
-</style>
 <table id="T_386cd">
   <thead>
     <tr>
