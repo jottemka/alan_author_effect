@@ -14,7 +14,7 @@ And perhaps even more surprisingly, this seemingly stronger effect and the origi
 
 This repo examines how likely the two effects are to occur with the help of Monte Carlo simulation methods.
 
-The results are published here:
+The results are published in Analysis:
  - https://academic.oup.com/analysis/advance-article-abstract/doi/10.1093/analys/anad103/7731114
 
 A penultimate version of the paper can be found here:
@@ -23,8 +23,81 @@ A penultimate version of the paper can be found here:
 
 ## Results
 
+Two types of prevalence values are calculated:
+
+1. *Conjunctive Prevalence*:
+    - For the Original Alan Author Effect: proportion of probability functions satisfying conditions 1 and 2.
+    - For the Strong Alan Author Effect: proportion of probability functions satisfying conditions 1, 2 and 3.
+
+    Since both effects are coextensional, this value must be identical for the Original Alan Author Effect and the Strong Alan Author Effect. 
+
+1. *Conditional Prevalence*:
+    - For the Original Alan Author Effect: proportion of probability functions satisfying conditions 1 *among* the probability functions satisfying condition 2.
+    - For the Strong Alan Author Effect: proportion of probability functions satisfying conditions 1 *among* the probability functions satisfying conditions 2 and 3.
+
+
+<style type="text/css">
+</style>
+<table id="T_386cd">
+  <thead>
+    <tr>
+      <th id="T_386cd_level0_col0" class="col_heading level0 col0" >Effect</th>
+      <th id="T_386cd_level0_col1" class="col_heading level0 col1" >Conjunctive Prevalence</th>
+      <th id="T_386cd_level0_col2" class="col_heading level0 col2" >Conditional Prevalence</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td id="T_386cd_row0_col0" class="data row0 col0" >Alan Author Effect</td>
+      <td id="T_386cd_row0_col1" class="data row0 col1" >0.025006</td>
+      <td id="T_386cd_row0_col2" class="data row0 col2" >0.100333</td>
+    </tr>
+    <tr>
+      <td id="T_386cd_row1_col0" class="data row1 col0" >Strong Alan Author Effect</td>
+      <td id="T_386cd_row1_col1" class="data row1 col1" >0.025006</td>
+      <td id="T_386cd_row1_col2" class="data row1 col2" >0.111471</td>
+    </tr>
+  </tbody>
+</table>
+
 
 
 ## Further Reading
 
-- https://www.cambridge.org/core/journals/philosophy-of-science/article/abs/how-to-confirm-the-conjunction-of-disconfirmed-hypotheses/45E5ECA1BA4293F465BEC18677CBD4BC
+1. https://conservancy.umn.edu/server/api/core/bitstreams/659aa39b-5cd4-46d3-8f9a-94e97fafe464/content
+
+1. https://www.cambridge.org/core/journals/philosophy-of-science/article/abs/how-to-confirm-the-conjunction-of-disconfirmed-hypotheses/45E5ECA1BA4293F465BEC18677CBD4BC
+
+## Virtual Environment Setup
+
+Use the requirements file to create a new environment for this task. 
+
+```Bash
+pyenv local 3.11.3
+python -m venv .venv
+source .venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+### **`WindowsOS`** type the following commands :
+
+Install the virtual environment and the required packages by following commands.
+
+For `PowerShell` CLI :
+
+```PowerShell
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+For `Git-Bash` CLI:
+
+```
+python -m venv .venv
+source .venv/Scripts/activate
+pip install --upgrade pip
+pip install -r requirements.txt
+```
