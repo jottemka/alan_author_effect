@@ -35,8 +35,8 @@ Two types of prevalence values are calculated:
     - For the Original Alan Author Effect: proportion of probability functions satisfying conditions 1 *among* the probability functions satisfying condition 2.
     - For the Strong Alan Author Effect: proportion of probability functions satisfying conditions 1 *among* the probability functions satisfying conditions 2 and 3.
 
+The results are shown in the table below:
 
-<style type="text/css">
 </style>
 <table id="T_386cd">
   <thead>
@@ -60,7 +60,7 @@ Two types of prevalence values are calculated:
   </tbody>
 </table>
 
-
+For comparison, the conjunctive prevalence of instances of Simpson's paradox is around 0.0083, the conditional prevalence is around .0333. So, the Alan Author Effect is more prevalent.
 
 ## Further Reading
 
