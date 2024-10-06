@@ -37,27 +37,28 @@ Two types of prevalence values are calculated:
 
 The results are shown in the table below:
 
-<table id="T_386cd">
+<table id="T_45989">
   <thead>
     <tr>
-      <th id="T_386cd_level0_col0" class="col_heading level0 col0" >Effect</th>
-      <th id="T_386cd_level0_col1" class="col_heading level0 col1" >Conjunctive Prevalence</th>
-      <th id="T_386cd_level0_col2" class="col_heading level0 col2" >Conditional Prevalence</th>
+      <th id="T_45989_level0_col0" class="col_heading level0 col0" >Effect</th>
+      <th id="T_45989_level0_col1" class="col_heading level0 col1" >Conjunctive Prevalence</th>
+      <th id="T_45989_level0_col2" class="col_heading level0 col2" >Conditional Prevalence</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td id="T_386cd_row0_col0" class="data row0 col0" >Alan Author Effect</td>
-      <td id="T_386cd_row0_col1" class="data row0 col1" >0.025006</td>
-      <td id="T_386cd_row0_col2" class="data row0 col2" >0.100333</td>
+      <td id="T_45989_row0_col0" class="data row0 col0" >Alan Author Effect</td>
+      <td id="T_45989_row0_col1" class="data row0 col1" >0.024935</td>
+      <td id="T_45989_row0_col2" class="data row0 col2" >0.099707</td>
     </tr>
     <tr>
-      <td id="T_386cd_row1_col0" class="data row1 col0" >Strong Alan Author Effect</td>
-      <td id="T_386cd_row1_col1" class="data row1 col1" >0.025006</td>
-      <td id="T_386cd_row1_col2" class="data row1 col2" >0.111471</td>
+      <td id="T_45989_row1_col0" class="data row1 col0" >Strong Alan Author Effect</td>
+      <td id="T_45989_row1_col1" class="data row1 col1" >0.024935</td>
+      <td id="T_45989_row1_col2" class="data row1 col2" >0.110793</td>
     </tr>
   </tbody>
 </table>
+
 
 For comparison, the conjunctive prevalence of instances of Simpson's paradox is around 0.0083, the conditional prevalence is around .0333. So, the Alan Author Effect is more prevalent.
 
