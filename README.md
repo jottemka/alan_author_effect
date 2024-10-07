@@ -1,18 +1,18 @@
 # Alan Author Strikes Again: More on Confirming Conjunctions of Disconfirmed Hypotheses
 
-The Alan Author Effect is a surprising phenomenon in Bayesian Confirmation Theory. It occurs when a piece of evidence confirms the conjunction of two hypotheses but at the same time disconfirms each hypothesis individually, more formally:
+The Alan Author Effect is a surprising phenomenon in Bayesian Confirmation Theory. It occurs when a piece of evidence E confirms the conjunction of two hypotheses H1 ∧ H2 but at the same time disconfirms each hypothesis H1 and H2 individually, more formally:
 
 1. $P(H_1\land H_2|E)>P(H_1\land H_2)$
 1. $P(H_1|E)<P(H_1)$ and $P(H_2|E)<P(H_2)$
 
-Surprisingly, there is a new and prima facie stronger
-version of this effect where additionally, the evidence confirms the conjunction of the negated hypotheses:
+Interestingly, there is a new and prima facie stronger
+version of this effect where additionally, E confirms that *neither* H1 *nor* H2 are true:
 
 3. $P(\neg H_1\land \neg H_2|E)>P(\neg H_1\land \neg H_2)$
 
-And perhaps even more surprisingly, this seemingly stronger effect and the original effect are actually *coextensional*.
+And even more interestingly, this seemingly stronger effect and the original effect are actually *coextensional*. This means that the Strong Alan Author Effect occurs if and only if the Original Alan Author Effect occurs.
 
-This repo examines how likely the two effects are to occur with the help of Monte Carlo simulation methods.
+This repo examines how likely the two versions of the Alan Author Effect are to occur with the help of Monte Carlo simulation methods.
 
 The results are published in Analysis:
  - https://academic.oup.com/analysis/advance-article-abstract/doi/10.1093/analys/anad103/7731114
@@ -29,13 +29,11 @@ Two types of prevalence values are calculated:
     - For the Original Alan Author Effect: proportion of probability functions satisfying conditions 1 and 2.
     - For the Strong Alan Author Effect: proportion of probability functions satisfying conditions 1, 2 and 3.
 
-    Since both effects are coextensional, this value must be identical for the Original Alan Author Effect and the Strong Alan Author Effect. 
-
 1. *Conditional Prevalence*:
     - For the Original Alan Author Effect: proportion of probability functions satisfying conditions 1 *among* the probability functions satisfying condition 2.
     - For the Strong Alan Author Effect: proportion of probability functions satisfying conditions 1 *among* the probability functions satisfying conditions 2 and 3.
 
-The results are shown in the table below:
+Since the effects are coextensional, the conjunctive prevalence must be identical for the Original Alan Author Effect and the Strong Alan Author Effect. The results are shown in the table below:
 
 <table id="T_45989">
   <thead>
@@ -63,6 +61,8 @@ The results are shown in the table below:
 For comparison, the conjunctive prevalence of instances of Simpson's paradox is around 0.0083, the conditional prevalence is around .0333. So, the Alan Author Effect is more prevalent.
 
 ## Further Reading
+
+1. http://fitelson.org/confirmation/carnap_logical_foundations_of_probability.pdf
 
 1. https://conservancy.umn.edu/server/api/core/bitstreams/659aa39b-5cd4-46d3-8f9a-94e97fafe464/content
 
