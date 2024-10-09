@@ -25,6 +25,8 @@ A penultimate version of the paper can be found here:
 
 ## Results
 
+![alt text](alan_author_plot.svg)
+
 Two types of prevalence values are calculated:
 
 1. *Conjunctive Prevalence*:
@@ -35,7 +37,7 @@ Two types of prevalence values are calculated:
     - Original effect: proportion of probability functions satisfying conditions 1 *among* the probability functions satisfying condition 2.
     -  Strong effect: proportion of probability functions satisfying conditions 1 *among* the probability functions satisfying conditions 2 and 3.
 
-The results are shown in the table below:
+The plot above shows how the values stabilize after 10,000 probability distributions. The original effect is left, the strong effect is right. The results are shown in the table below:
 
 <table id="T_74a50">
   <thead>
